@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="dragonslayer.css" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+  <div id="battleArea">
+    <img src="http://media.indiedb.com/images/groups/1/6/5048/dragon_fire2.jpg" />
+    <div id="battleOuter">
+      <div id="battleoptions">
+        <ul id="activeParty"></ul>
+        <ul>
+          <li><input type="button" id="attackbtn" value="Attack"></li>
+          <li><input type="button" value="Item"></li>
+          <li><input type="button" value="Defend"></li>
+          <li><input type="button" value="Run"></li>
+        </ul>
+      </div><!-- /#battleoptions -->
+      <div id="battleevent">
+        <p>A huge dragon appears!</p>
+      </div><!-- /#battleevent -->
+
+      <div id="hpcounters">
+       <p>Cloud: <span id="CloudHP">100</span> / 100</p>
+       <p>Barret: <span id="BarretHP">100</span> / 100</p>
+       <p>Tifa: <span id="TifaHP">100</span> / 100</p>
+       <p>Dragon HP: <span id="DragonHP">500</span> / 500</p>
+     </div><!-- /#hpcounters -->
+   </div> <!-- /#battleOuter -->
+ </div><!-- /#battleArea -->
+</body>
+<footer>
+  <script src="dragonslayer5.js"></script>
+</footer>
+</html>
